@@ -7,6 +7,7 @@ RUN addgroup -g 9232 -S exporter ; \
 
 USER exporter
 
+
 ADD target/exporter.jar exporter.jar
 
 EXPOSE 9384
